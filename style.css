@@ -72,8 +72,8 @@ p {
 }
 
 .image-container img {
-    width: 50%;
-    max-width: 600px;
+    width: 100px;
+    max-width: 200px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -82,7 +82,7 @@ p {
 .hover-image {
     filter: grayscale(0%);
     transition: 0.3s;
-    width: 30%;
+    width: 100px;
     max-width: 200px;
     height: auto;
 }
