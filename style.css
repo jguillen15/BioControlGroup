@@ -79,6 +79,15 @@ p {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.hover-image {
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+.hover-image:hover {
+    filter: grayscale(0%);
+}
+
+
 footer {
     text-align: center;
     padding: 1rem 0;
