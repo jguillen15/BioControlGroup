@@ -80,11 +80,11 @@ p {
 }
 
 .hover-image {
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     transition: 0.3s;
 }
 .hover-image:hover {
-    filter: grayscale(0%);
+    filter: grayscale(50%);
 }
 
 
