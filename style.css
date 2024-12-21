@@ -82,9 +82,12 @@ p {
 .hover-image {
     filter: grayscale(0%);
     transition: 0.3s;
+    width: 30%;
+    max-width: 200px;
+    height: auto;
 }
 .hover-image:hover {
-    filter: grayscale(50%);
+    filter: grayscale(90%);
 }
 
 
