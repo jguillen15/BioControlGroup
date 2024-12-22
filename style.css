@@ -100,66 +100,57 @@ footer {
     border-top: 2px solid #ffd700;
 }
 
-/* General Styles for Navigation Bar */
+/* Navigation bar styling */
 .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #333;
-    padding: 10px 20px;
-}
-
-.navbar h1 {
-    color: white;
-    font-size: 24px;
+    padding: 10px;
 }
 
 .navbar ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
 .navbar li {
-    position: relative; /* To position dropdown menu */
+    position: relative;
 }
 
 .navbar a {
     text-decoration: none;
+    padding: 10px 15px;
     color: white;
-    padding: 10px 20px;
     display: block;
 }
 
 .navbar a:hover {
-    background-color: #555;
+    background-color: #575757;
 }
 
-/* Dropdown Menu Styles */
-.dropdown-menu {
+/* Dropdown menu styling */
+.dropdown {
     display: none; /* Initially hidden */
     position: absolute;
-    top: 100%; /* Below the parent menu */
+    top: 100%; /* Position below the parent item */
     left: 0;
     background-color: #444;
     list-style: none;
     padding: 0;
     margin: 0;
     min-width: 150px;
-    z-index: 1000;
 }
 
-.dropdown-menu li a {
-    padding: 10px 15px;
-    color: white;
+.dropdown li {
+    width: 100%;
 }
 
-.dropdown-menu li a:hover {
-    background-color: #555;
+.dropdown a {
+    padding: 10px; /* Adjust padding for dropdown items */
 }
 
-/* Show Dropdown on Hover */
-.dropdown:hover .dropdown-menu {
-    display: block; /* Only show when hovering */
+/* Show dropdown on hover */
+.navbar li:hover .dropdown {
+    display: block; /* Show dropdown */
 }
