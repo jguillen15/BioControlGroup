@@ -13,7 +13,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: space-around;
-    padding: 20px 0;
+    padding: 60px 0;
 }
 
 .navbar a {
