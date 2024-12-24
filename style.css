@@ -80,13 +80,13 @@ body {
 /* Individual image and description containers */
 .image-container {
     text-align: center; /* Centers the description below each image */
-    width: 50%;         /* Adjusts width for responsiveness */
+    width: 40%;         /* Adjusts width for responsiveness */
 }
 
 /* Images styling */
 .image-container img {
-    height: 300px;        /* Makes the image fit the container */
-    max-height: 500px;   /* Limits the image width */
+    height: 250px;        /* Makes the image fit the container */
+    max-height: 300px;   /* Limits the image width */
     width: auto;       /* Maintains aspect ratio */
 }
 
