@@ -80,7 +80,7 @@ body {
 /* Individual image and description containers */
 .image-container {
     text-align: center; /* Centers the description below each image */
-    width: 30%;         /* Adjusts width for responsiveness */
+    width: 50%;         /* Adjusts width for responsiveness */
 }
 
 /* Images styling */
