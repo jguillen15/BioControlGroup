@@ -12,8 +12,9 @@ body {
     background-color: #333;
     overflow: visible;
     display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center; /* Vertically centers items */
 }
 
 .navbar a {
@@ -60,7 +61,7 @@ body {
     color: white;
     font-size: 20px;
     font-weight: bold;
-    display: inline-block;
+    line-height: 1;
 }
 
 /* Content Section Styling */
