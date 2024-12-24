@@ -63,7 +63,11 @@ body {
     font-weight: bold;
     line-height: 1;
 }
-
+.lab-title img {
+    height: 10px; /* Adjust to fit the navbar height */
+    object-fit: contain; /* Ensures the image scales without distortion */
+    vertical-align: middle; /* Vertically aligns the image */
+}
 /* Content Section Styling */
 .content {
     padding: 20px;
