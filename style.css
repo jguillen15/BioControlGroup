@@ -68,10 +68,40 @@ body {
     object-fit: contain; /* Ensures the image scales without distortion */
     vertical-align: middle; /* Vertically aligns the image */
 }
+
+/* Container for the entire row of Principal Researchers */
+.image-row {
+    display: flex;
+    justify-content: space-around; /* Even spacing between images */
+    align-items: center;          /* Aligns content vertically */
+    margin: 20px 0;
+}
+
+/* Individual image and description containers */
+.image-container {
+    text-align: center; /* Centers the description below each image */
+    width: 30%;         /* Adjusts width for responsiveness */
+}
+
+/* Images styling */
+.image-container img {
+    width: 100%;        /* Makes the image fit the container */
+    max-width: 200px;   /* Limits the image width */
+    height: auto;       /* Maintains aspect ratio */
+}
+
+/* Description styling */
+.image-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+
 /* Content Section Styling */
 .content {
     padding: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 /* Footer Styling */
