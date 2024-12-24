@@ -10,7 +10,7 @@ body {
 /* Navbar Styling */
 .navbar {
     background-color: #333;
-    overflow: hidden;
+    overflow: visible;
     display: flex;
     justify-content: space-around;
     padding: 60px 0;
