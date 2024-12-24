@@ -5,53 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Research - BioControl Group</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .navbar {
-            background-color: #333;
-            overflow: hidden;
-            display: flex;
-            justify-content: space-around;
-            padding: 10px 0;
-        }
-
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            padding: 14px 20px;
-            display: inline-block;
-        }
-
-        .navbar a:hover {
-            background-color: #575757;
-        }
-
-        .content {
-            padding: 20px;
-            text-align: center;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
 </head>
 <body>
+    <!-- Navigation Bar -->
     <header>
         <div class="navbar">
+            <div class="lab-title"><img src="images/biocontrol_logo.png" alt="BioControl Group Logo"></div>
             <a href="index.html">Home</a>
-            <a href="research.html">Research</a>
+            <div class="dropdown">
+                <a href="research.html">  Research  </a>
+                <div class="dropdown-content">
+                    <a href="project1.html">Whole-Cell Models</a>
+                    <a href="project2.html">Control</a>
+                    <a href="project3.html">Math Modelling</a>
+                </div>
+            </div>
             <a href="people.html">People</a>
             <a href="publications.html">Publications</a>
             <a href="contact.html">Contact</a>
