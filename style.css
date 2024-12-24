@@ -85,9 +85,9 @@ body {
 
 /* Images styling */
 .image-container img {
-    width: 100%;        /* Makes the image fit the container */
-    max-width: 200px;   /* Limits the image width */
-    height: auto;       /* Maintains aspect ratio */
+    height: 40px;        /* Makes the image fit the container */
+    max-height: 200px;   /* Limits the image width */
+    width: auto;       /* Maintains aspect ratio */
 }
 
 /* Description styling */
