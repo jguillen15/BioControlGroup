@@ -109,7 +109,7 @@ body {
     background-color: #333; /* Set the background color of the strip */
     color: #ffffff;              /* Text color */
     text-align: center;       /* Center the text horizontally */
-    padding: 10px 0;          /* Add vertical padding for the strip */
+    padding: 5px 0;          /* Add vertical padding for the strip */
     width: 100%;              /* Ensure the strip spans the full width of the page */
     font-size: 18px;          /* Adjust font size */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better appearance */
