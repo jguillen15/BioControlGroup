@@ -13,7 +13,7 @@ body {
     overflow: visible;
     display: flex;
     justify-content: space-between;
-    padding: 10px 70px;
+    padding: 5px 70px;
     align-items: center; /* Vertically centers items */
 
 }
