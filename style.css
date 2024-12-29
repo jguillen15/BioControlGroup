@@ -78,6 +78,16 @@ body {
     margin: 20px 0;
 }
 
+/* Green filter on hover */
+.image-row.green:hover {
+    filter: sepia(100%) hue-rotate(90deg) saturate(500%);
+}
+
+/* Blue filter on hover */
+.image-row.blue:hover {
+    filter: sepia(100%) hue-rotate(200deg) saturate(500%);
+}
+
 /* Individual image and description containers */
 .image-container {
     text-align: center; /* Centers the description below each image */
